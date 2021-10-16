@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 
-class DemoCard extends Component {
+class BTBuoi4 extends Component {
   render() {
     const {bgColor, title} = this.props;
     return (
@@ -22,4 +22,4 @@ class DemoCard extends Component {
   }
 }
 
-export default DemoCard;
+export default BTBuoi4;
