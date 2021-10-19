@@ -7,8 +7,9 @@
  */
 
 import React from 'react';
-import {View} from 'react-native';
-import BTBuoi6 from './src/components/BTBuoi6';
+// import {View} from 'react-native';
+// import BTBuoi6 from './src/components/BTBuoi6';
+import BTZalo from './src/components/BTZalo';
 // import BTBuoi4 from './src/components/BTBuoi4';
 
 class App extends React.Component {
@@ -23,7 +24,10 @@ class App extends React.Component {
       // </View>
 
       // BTBuoi6
-      <BTBuoi6 />
+      // <BTBuoi6 />
+
+      //BTZalo
+      <BTZalo />
     );
   }
 }
