@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import BTVNBuoi12 from './src/components/BTVNBuoi12';
 // import {View} from 'react-native';
 // import BTBuoi6 from './src/components/BTBuoi6';
 import BTZalo from './src/components/BTZalo';
@@ -27,7 +28,10 @@ class App extends React.Component {
       // <BTBuoi6 />
 
       //BTZalo
-      <BTZalo />
+      // <BTZalo />
+
+      //BTVNBuoi12
+      <BTVNBuoi12 />
     );
   }
 }
